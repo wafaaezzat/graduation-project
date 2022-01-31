@@ -1,0 +1,11 @@
+1- 2 x Atmega32A https://lampatronics.com/shop/microcontrollers/avr/avr-avr/atmega32-16pu-atmel/
+
+2- 8 x 74139 2 to 4 decoder https://makerselectronics.com/product/74139-ic
+
+3- 32 x 74154 4 to 16 decoder https://lampatronics.com/shop/semiconductors/74-sereis/74hc154-4-to-16-decoderdemultiplexer/
+
+4- 2 x 74238 3 to 8 decoder https://lampatronics.com/shop/semiconductors/74-sereis/74238-3-8-line-decoderdemultiplexer/
+
+5- 4 x 744051 8 ch multiplexer https://lampatronics.com/shop/semiconductors/40-series/4051-8-channel-analog-multiplexer-demultiplexer/
+
+6- 8 x MAX7219 https://ram-e-shop.com/product/max7219/?fbclid=IwAR2Zgi0k-DZAHcHc10--qeYC911oEnVPYLIWkEmyMYH0nXgERmTme6umvA4

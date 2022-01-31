@@ -1,0 +1,2093 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00002 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -17000000 21589999 -17000000 21590000 -16999999
+     22050000 -16999999 22050000 -17000000)
+    (connect (terminal smd LED2-4) (terminal smd LED1-1))
+    (attr bus)
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -17000000 18796000 -17000000 18796000 -16999999
+     19050000 -16999999 19050000 -17000000)
+    (connect (terminal smd LED3-4) (terminal smd LED2-1))
+    (attr bus)
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -17000000 15620999 -17000000 15621000 -16999999
+     16050000 -16999999 16050000 -17000000)
+    (connect (terminal smd LED4-4) (terminal smd LED3-1))
+    (attr bus)
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -17000000 12572999 -17000000 12573000 -16999999
+     13050000 -16999999 13050000 -17000000)
+    (connect (terminal smd LED5-4) (terminal smd LED4-1))
+    (attr bus)
+   )
+   )
+   (Net #00014 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -17000000 9588499 -17000000 9588500 -16999999
+     10050000 -16999999 10050000 -17000000)
+    (connect (terminal smd LED6-4) (terminal smd LED5-1))
+    (attr bus)
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -17000000 6603999 -17000000 6604000 -16999999
+     7050000 -16999999 7050000 -17000000)
+    (connect (terminal smd LED7-4) (terminal smd LED6-1))
+    (attr bus)
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path TOP 177800  4050000 -17000000 3950000 -17000000 2750000 -17000000)
+    (connect (terminal smd LED7-1) (terminal smd LED8-4))
+    (type protect)
+   )
+   )
+   (Net #00027 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -15000000 21589999 -15000000 21590000 -14999999
+     22050000 -14999999 22050000 -15000000)
+    (connect (terminal smd LED10-4) (terminal smd LED9-1))
+    (attr bus)
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -15000000 18605499 -15000000 18605500 -14999999
+     19050000 -14999999 19050000 -15000000)
+    (connect (terminal smd LED11-4) (terminal smd LED10-1))
+    (attr bus)
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -15000000 15620999 -15000000 15621000 -14999999
+     16050000 -14999999 16050000 -15000000)
+    (connect (terminal smd LED12-4) (terminal smd LED11-1))
+    (attr bus)
+   )
+   )
+   (Net #00036 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -15000000 12572999 -15000000 12573000 -14999999
+     13050000 -14999999 13050000 -15000000)
+    (connect (terminal smd LED13-4) (terminal smd LED12-1))
+    (attr bus)
+   )
+   )
+   (Net #00039 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -15000000 9588499 -15000000 9588500 -14999999
+     10050000 -14999999 10050000 -15000000)
+    (connect (terminal smd LED14-4) (terminal smd LED13-1))
+    (attr bus)
+   )
+   )
+   (Net #00042 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -15000000 6603999 -15000000 6604000 -14999999
+     7050000 -14999999 7050000 -15000000)
+    (connect (terminal smd LED15-4) (terminal smd LED14-1))
+    (attr bus)
+   )
+   )
+   (Net #00045 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -15000000 3619499 -15000000 3619500 -14999999
+     4050000 -14999999 4050000 -15000000)
+    (connect (terminal smd LED16-4) (terminal smd LED15-1))
+    (attr bus)
+   )
+   )
+   (Net #00052 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -13000000 21589999 -13000000 21590000 -12999999
+     22050000 -12999999 22050000 -13000000)
+    (connect (terminal smd LED18-4) (terminal smd LED17-1))
+    (attr bus)
+   )
+   )
+   (Net #00055 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -13000000 18605499 -13000000 18605500 -12999999
+     19050000 -12999999 19050000 -13000000)
+    (connect (terminal smd LED19-4) (terminal smd LED18-1))
+    (attr bus)
+   )
+   )
+   (Net #00058 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -13000000 15620999 -13000000 15621000 -12999999
+     16050000 -12999999 16050000 -13000000)
+    (connect (terminal smd LED20-4) (terminal smd LED19-1))
+    (attr bus)
+   )
+   )
+   (Net #00061 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -13000000 12572999 -13000000 12573000 -12999999
+     13050000 -12999999 13050000 -13000000)
+    (connect (terminal smd LED21-4) (terminal smd LED20-1))
+    (attr bus)
+   )
+   )
+   (Net #00064 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -13000000 9588499 -13000000 9588500 -12999999
+     10050000 -12999999 10050000 -13000000)
+    (connect (terminal smd LED22-4) (terminal smd LED21-1))
+    (attr bus)
+   )
+   )
+   (Net #00067 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -13000000 6603999 -13000000 6604000 -12999999
+     7050000 -12999999 7050000 -13000000)
+    (connect (terminal smd LED23-4) (terminal smd LED22-1))
+    (attr bus)
+   )
+   )
+   (Net #00070 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -13000000 3619499 -13000000 3619500 -12999999
+     4050000 -12999999 4050000 -13000000)
+    (connect (terminal smd LED24-4) (terminal smd LED23-1))
+    (attr bus)
+   )
+   )
+   (Net #00077 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -11000000 21589999 -11000000 21590000 -10999999
+     22050000 -10999999 22050000 -11000000)
+    (connect (terminal smd LED26-4) (terminal smd LED25-1))
+    (attr bus)
+   )
+   )
+   (Net #00080 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -11000000 18605499 -11000000 18605500 -10999999
+     19050000 -10999999 19050000 -11000000)
+    (connect (terminal smd LED27-4) (terminal smd LED26-1))
+    (attr bus)
+   )
+   )
+   (Net #00083 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -11000000 15620999 -11000000 15621000 -10999999
+     16050000 -10999999 16050000 -11000000)
+    (connect (terminal smd LED28-4) (terminal smd LED27-1))
+    (attr bus)
+   )
+   )
+   (Net #00086 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -11000000 12255499 -11000000 12255500 -10999999
+     13050000 -10999999 13050000 -11000000)
+    (connect (terminal smd LED29-4) (terminal smd LED28-1))
+    (attr bus)
+   )
+   )
+   (Net #00089 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -11000000 9588499 -11000000 9588500 -10999999
+     10050000 -10999999 10050000 -11000000)
+    (connect (terminal smd LED30-4) (terminal smd LED29-1))
+    (attr bus)
+   )
+   )
+   (Net #00092 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -11000000 6286499 -11000000 6286500 -10999999
+     7050000 -10999999 7050000 -11000000)
+    (connect (terminal smd LED31-4) (terminal smd LED30-1))
+    (attr bus)
+   )
+   )
+   (Net #00095 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -11000000 3619499 -11000000 3619500 -10999999
+     4050000 -10999999 4050000 -11000000)
+    (connect (terminal smd LED32-4) (terminal smd LED31-1))
+    (attr bus)
+   )
+   )
+   (Net #00102 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -9000000 21272499 -9000000 21272500 -8999999
+     22050000 -8999999 22050000 -9000000)
+    (connect (terminal smd LED34-4) (terminal smd LED33-1))
+    (attr bus)
+   )
+   )
+   (Net #00105 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -9000000 18287999 -9000000 18288000 -8999999
+     19050000 -8999999 19050000 -9000000)
+    (connect (terminal smd LED35-4) (terminal smd LED34-1))
+    (attr bus)
+   )
+   )
+   (Net #00108 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -9000000 15303499 -9000000 15303500 -8999999
+     16050000 -8999999 16050000 -9000000)
+    (connect (terminal smd LED36-4) (terminal smd LED35-1))
+    (attr bus)
+   )
+   )
+   (Net #00111 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -9000000 12255499 -9000000 12255500 -8999999
+     13050000 -8999999 13050000 -9000000)
+    (connect (terminal smd LED37-4) (terminal smd LED36-1))
+    (attr bus)
+   )
+   )
+   (Net #00114 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -9000000 9270999 -9000000 9271000 -8999999
+     10050000 -8999999 10050000 -9000000)
+    (connect (terminal smd LED38-4) (terminal smd LED37-1))
+    (attr bus)
+   )
+   )
+   (Net #00117 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -9000000 6286499 -9000000 6286500 -8999999
+     7050000 -8999999 7050000 -9000000)
+    (connect (terminal smd LED39-4) (terminal smd LED38-1))
+    (attr bus)
+   )
+   )
+   (Net #00120 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -9000000 3301999 -9000000 3302000 -8999999
+     4050000 -8999999 4050000 -9000000)
+    (connect (terminal smd LED40-4) (terminal smd LED39-1))
+    (attr bus)
+   )
+   )
+   (Net #00127 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -7000000 21272499 -7000000 21272500 -6999999
+     22050000 -6999999 22050000 -7000000)
+    (connect (terminal smd LED42-4) (terminal smd LED41-1))
+    (attr bus)
+   )
+   )
+   (Net #00130 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -7000000 18287999 -7000000 18288000 -6999999
+     19050000 -6999999 19050000 -7000000)
+    (connect (terminal smd LED43-4) (terminal smd LED42-1))
+    (attr bus)
+   )
+   )
+   (Net #00133 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -7000000 15303499 -7000000 15303500 -6999999
+     16050000 -6999999 16050000 -7000000)
+    (connect (terminal smd LED44-4) (terminal smd LED43-1))
+    (attr bus)
+   )
+   )
+   (Net #00136 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -7000000 12255499 -7000000 12255500 -6999999
+     13050000 -6999999 13050000 -7000000)
+    (connect (terminal smd LED45-4) (terminal smd LED44-1))
+    (attr bus)
+   )
+   )
+   (Net #00139 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -7000000 9270999 -7000000 9271000 -6999999
+     10050000 -6999999 10050000 -7000000)
+    (connect (terminal smd LED46-4) (terminal smd LED45-1))
+    (attr bus)
+   )
+   )
+   (Net #00142 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -7000000 6286499 -7000000 6286500 -6999999
+     7050000 -6999999 7050000 -7000000)
+    (connect (terminal smd LED47-4) (terminal smd LED46-1))
+    (attr bus)
+   )
+   )
+   (Net #00145 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -7000000 3301999 -7000000 3302000 -6999999
+     4050000 -6999999 4050000 -7000000)
+    (connect (terminal smd LED48-4) (terminal smd LED47-1))
+    (attr bus)
+   )
+   )
+   (Net #00152 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -5000000 21272499 -5000000 21272500 -4999999
+     22050000 -4999999 22050000 -5000000)
+    (connect (terminal smd LED50-4) (terminal smd LED49-1))
+    (attr bus)
+   )
+   )
+   (Net #00155 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -5000000 18287999 -5000000 18288000 -4999999
+     19050000 -4999999 19050000 -5000000)
+    (connect (terminal smd LED51-4) (terminal smd LED50-1))
+    (attr bus)
+   )
+   )
+   (Net #00158 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -5000000 15303499 -5000000 15303500 -4999999
+     16050000 -4999999 16050000 -5000000)
+    (connect (terminal smd LED52-4) (terminal smd LED51-1))
+    (attr bus)
+   )
+   )
+   (Net #00161 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -5000000 12255499 -5000000 12255500 -4999999
+     13050000 -4999999 13050000 -5000000)
+    (connect (terminal smd LED53-4) (terminal smd LED52-1))
+    (attr bus)
+   )
+   )
+   (Net #00164 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -5000000 9270999 -5000000 9271000 -4999999
+     10050000 -4999999 10050000 -5000000)
+    (connect (terminal smd LED54-4) (terminal smd LED53-1))
+    (attr bus)
+   )
+   )
+   (Net #00167 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -5000000 6286499 -5000000 6286500 -4999999
+     7050000 -4999999 7050000 -5000000)
+    (connect (terminal smd LED55-4) (terminal smd LED54-1))
+    (attr bus)
+   )
+   )
+   (Net #00170 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -5000000 3301999 -5000000 3302000 -4999999
+     4050000 -4999999 4050000 -5000000)
+    (connect (terminal smd LED56-4) (terminal smd LED55-1))
+    (attr bus)
+   )
+   )
+   (Net #00177 
+   (rule
+   )
+   (wire (path TOP 177800  20750000 -3000000 21272499 -3000000 21272500 -2999999
+     22050000 -2999999 22050000 -3000000)
+    (connect (terminal smd LED58-4) (terminal smd LED57-1))
+    (attr bus)
+   )
+   )
+   (Net #00180 
+   (rule
+   )
+   (wire (path TOP 177800  17750000 -3000000 18287999 -3000000 18288000 -2999999
+     19050000 -2999999 19050000 -3000000)
+    (connect (terminal smd LED59-4) (terminal smd LED58-1))
+    (attr bus)
+   )
+   )
+   (Net #00183 
+   (rule
+   )
+   (wire (path TOP 177800  14750000 -3000000 15303499 -3000000 15303500 -2999999
+     16050000 -2999999 16050000 -3000000)
+    (connect (terminal smd LED60-4) (terminal smd LED59-1))
+    (attr bus)
+   )
+   )
+   (Net #00186 
+   (rule
+   )
+   (wire (path TOP 177800  11750000 -3000000 12255499 -3000000 12255500 -2999999
+     13050000 -2999999 13050000 -3000000)
+    (connect (terminal smd LED61-4) (terminal smd LED60-1))
+    (attr bus)
+   )
+   )
+   (Net #00189 
+   (rule
+   )
+   (wire (path TOP 177800  8750000 -3000000 9270999 -3000000 9271000 -2999999
+     10050000 -2999999 10050000 -3000000)
+    (connect (terminal smd LED62-4) (terminal smd LED61-1))
+    (attr bus)
+   )
+   )
+   (Net #00192 
+   (rule
+   )
+   (wire (path TOP 177800  5750000 -3000000 6286499 -3000000 6286500 -2999999
+     7050000 -2999999 7050000 -3000000)
+    (connect (terminal smd LED63-4) (terminal smd LED62-1))
+    (attr bus)
+   )
+   )
+   (Net #00195 
+   (rule
+   )
+   (wire (path TOP 177800  2750000 -3000000 3301999 -3000000 3302000 -2999999
+     4050000 -2999999 4050000 -3000000)
+    (connect (terminal smd LED64-4) (terminal smd LED63-1))
+    (attr bus)
+   )
+   )
+   (Net AVR_LEDSTRIP 
+   (rule
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 177800  22542500 -11493500 22542500 -11300000 22050000 -11300000)
+    (connect (terminal via) (terminal smd LED25-2))
+   )
+   (wire (path BOT 177800  23495000 -11493500 22542500 -11493500)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -11300000 23495000 -11300000 23495000 -11493500)
+    (connect (terminal smd LED25-5) (terminal via))
+   )
+   (wire (path TOP 177800  22542500 -15494000 22542500 -15300000 22050000 -15300000)
+    (connect (terminal via) (terminal smd LED9-2))
+   )
+   (wire (path BOT 177800  24257000 -15494000 22542500 -15494000)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -15300000 24257000 -15300000 24257000 -15494000)
+    (connect (terminal smd LED9-5) (terminal via))
+   )
+   (wire (path TOP 177800  22542500 -5397500 22542500 -5300000 22050000 -5300000)
+    (connect (terminal via) (terminal smd LED49-2))
+   )
+   (wire (path BOT 177800  24257000 -5397500 22542500 -5397500)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -5300000 24257000 -5300000 24257000 -5397500)
+    (connect (terminal smd LED49-5) (terminal via))
+   )
+   (wire (path TOP 177800  22542500 -13271500 22542500 -13300000 22050000 -13300000)
+    (connect (terminal via) (terminal smd LED17-2))
+   )
+   (wire (path BOT 177800  23749000 -13589000 22542500 -13589000 22542500 -13271500)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -13300000 23750000 -13589000 23749000 -13589000)
+    (connect (terminal smd LED17-5) (terminal via))
+   )
+   (wire (path TOP 177800  2750000 -5300000 2750000 -5299999 2286000 -5299999
+     2286000 -5300000 1050000 -5300000)
+    (connect (terminal smd LED56-5) (terminal smd LED56-2))
+   )
+   (wire (path TOP 177800  2750000 -11300000 2750000 -11299999 2286000 -11299999
+     2286000 -11300000 1050000 -11300000)
+    (connect (terminal smd LED32-5) (terminal smd LED32-2))
+   )
+   (wire (path TOP 177800  2750000 -15300000 2750000 -15299999 2286000 -15299999
+     2286000 -15300000 1050000 -15300000)
+    (connect (terminal smd LED16-5) (terminal smd LED16-2))
+   )
+   (wire (path TOP 177800  2750000 -9300000 2750000 -9299999 2286000 -9299999
+     2286000 -9300000 1050000 -9300000)
+    (connect (terminal smd LED40-5) (terminal smd LED40-2))
+   )
+   (wire (path TOP 177800  2750000 -13300000 2750000 -13299999 2349500 -13299999
+     2349500 -13300000 1050000 -13300000)
+    (connect (terminal smd LED24-5) (terminal smd LED24-2))
+   )
+   (wire (path TOP 177800  2750000 -17300000 2750000 -17299999 2286000 -17299999
+     2286000 -17300000 1050000 -17300000)
+    (connect (terminal smd LED8-5) (terminal smd LED8-2))
+   )
+   (wire (path TOP 177800  1050000 -7300000 1050000 -7299999 1587500 -7299999
+     1587500 -7300000 2750000 -7300000)
+    (connect (terminal smd LED48-2) (terminal smd LED48-5))
+   )
+   (wire (path TOP 177800  22542500 -7366000 22542500 -7300000 22050000 -7300000)
+    (connect (terminal via) (terminal smd LED41-2))
+   )
+   (wire (path BOT 177800  23431500 -7366000 22542500 -7366000)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -7300000 23431500 -7300000 23431500 -7366000)
+    (connect (terminal smd LED41-5) (terminal via))
+   )
+   (wire (path TOP 177800  22542500 -9398000 22542500 -9300000 22050000 -9300000)
+    (connect (terminal via) (terminal smd LED33-2))
+   )
+   (wire (path BOT 177800  23431500 -9398000 22542500 -9398000)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -9300000 23431500 -9300000 23431500 -9398000)
+    (connect (terminal smd LED33-5) (terminal via))
+   )
+   (wire (path TOP 177800  22542500 -3429000 22542500 -3300000 22050000 -3300000)
+    (connect (terminal via) (terminal smd LED57-2))
+   )
+   (wire (path BOT 177800  24257000 -3429000 22542500 -3429000)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TOP 177800  23750000 -3300000 24257000 -3300000 24257000 -3429000)
+    (connect (terminal smd LED57-5) (terminal via))
+   )
+   (wire (path TOP 177800  13050000 -17300000 14223999 -17300000 14224000 -17299999
+     14750000 -17299999 14750000 -17300000)
+    (connect (terminal smd LED4-2) (terminal smd LED4-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -17300000 12318999 -17300000 12319000 -17299999
+     13050000 -17299999 13050000 -17300000)
+    (connect (terminal smd LED5-5) (terminal smd LED4-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -17300000 11493500 -17300000 11493500 -17299999
+     11750000 -17299999 11750000 -17300000)
+    (connect (terminal smd LED5-2) (terminal smd LED5-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -17300000 9334499 -17300000 9334500 -17299999
+     10050000 -17299999 10050000 -17300000)
+    (connect (terminal smd LED6-5) (terminal smd LED5-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -17300000 8509000 -17300000 8509000 -17299999
+     8750000 -17299999 8750000 -17300000)
+    (connect (terminal smd LED6-2) (terminal smd LED6-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -17300000 6349999 -17300000 6350000 -17299999
+     7050000 -17299999 7050000 -17300000)
+    (connect (terminal smd LED7-5) (terminal smd LED6-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -17300000 5206999 -17300000 5207000 -17299999
+     5750000 -17299999 5750000 -17300000)
+    (connect (terminal smd LED7-2) (terminal smd LED7-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -13300000 21335999 -13300000 21336000 -13299999
+     22050000 -13299999 22050000 -13300000)
+    (connect (terminal smd LED18-5) (terminal smd LED17-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -13300000 19938999 -13300000 19939000 -13299999
+     20750000 -13299999 20750000 -13300000)
+    (connect (terminal smd LED18-2) (terminal smd LED18-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -13300000 18351499 -13300000 18351500 -13299999
+     19050000 -13299999 19050000 -13300000)
+    (connect (terminal smd LED19-5) (terminal smd LED18-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -13300000 17462500 -13300000 17462500 -13299999
+     17750000 -13299999 17750000 -13300000)
+    (connect (terminal smd LED19-2) (terminal smd LED19-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -13300000 15366999 -13300000 15367000 -13299999
+     16050000 -13299999 16050000 -13300000)
+    (connect (terminal smd LED20-5) (terminal smd LED19-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -13300000 14478000 -13300000 14478000 -13299999
+     14750000 -13299999 14750000 -13300000)
+    (connect (terminal smd LED20-2) (terminal smd LED20-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -13300000 12318999 -13300000 12319000 -13299999
+     13050000 -13299999 13050000 -13300000)
+    (connect (terminal smd LED21-5) (terminal smd LED20-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -13300000 11175999 -13300000 11176000 -13299999
+     11750000 -13299999 11750000 -13300000)
+    (connect (terminal smd LED21-2) (terminal smd LED21-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -13300000 9334499 -13300000 9334500 -13299999
+     10050000 -13299999 10050000 -13300000)
+    (connect (terminal smd LED22-5) (terminal smd LED21-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -13300000 8191499 -13300000 8191500 -13299999
+     8750000 -13299999 8750000 -13300000)
+    (connect (terminal smd LED22-2) (terminal smd LED22-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -13300000 6349999 -13300000 6350000 -13299999
+     7050000 -13299999 7050000 -13300000)
+    (connect (terminal smd LED23-5) (terminal smd LED22-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -13300000 5206999 -13300000 5207000 -13299999
+     5750000 -13299999 5750000 -13300000)
+    (connect (terminal smd LED23-2) (terminal smd LED23-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -13300000 3365499 -13300000 3365500 -13299999
+     4050000 -13299999 4050000 -13300000)
+    (connect (terminal smd LED24-5) (terminal smd LED23-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -15300000 21335999 -15300000 21336000 -15299999
+     22050000 -15299999 22050000 -15300000)
+    (connect (terminal smd LED10-5) (terminal smd LED9-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -15300000 20510500 -15300000 20510500 -15299999
+     20750000 -15299999 20750000 -15300000)
+    (connect (terminal smd LED10-2) (terminal smd LED10-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -15300000 18351499 -15300000 18351500 -15299999
+     19050000 -15299999 19050000 -15300000)
+    (connect (terminal smd LED11-5) (terminal smd LED10-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -15300000 17462500 -15300000 17462500 -15299999
+     17750000 -15299999 17750000 -15300000)
+    (connect (terminal smd LED11-2) (terminal smd LED11-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -15300000 15366999 -15300000 15367000 -15299999
+     16050000 -15299999 16050000 -15300000)
+    (connect (terminal smd LED12-5) (terminal smd LED11-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -15300000 14478000 -15300000 14478000 -15299999
+     14750000 -15299999 14750000 -15300000)
+    (connect (terminal smd LED12-2) (terminal smd LED12-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -15300000 12318999 -15300000 12319000 -15299999
+     13050000 -15299999 13050000 -15300000)
+    (connect (terminal smd LED13-5) (terminal smd LED12-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -15300000 11493500 -15300000 11493500 -15299999
+     11750000 -15299999 11750000 -15300000)
+    (connect (terminal smd LED13-2) (terminal smd LED13-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -15300000 9334499 -15300000 9334500 -15299999
+     10050000 -15299999 10050000 -15300000)
+    (connect (terminal smd LED14-5) (terminal smd LED13-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -15300000 8509000 -15300000 8509000 -15299999
+     8750000 -15299999 8750000 -15300000)
+    (connect (terminal smd LED14-2) (terminal smd LED14-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -15300000 6349999 -15300000 6350000 -15299999
+     7050000 -15299999 7050000 -15300000)
+    (connect (terminal smd LED15-5) (terminal smd LED14-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -15300000 5461000 -15300000 5461000 -15299999
+     5750000 -15299999 5750000 -15300000)
+    (connect (terminal smd LED15-2) (terminal smd LED15-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -15300000 3365499 -15300000 3365500 -15299999
+     4050000 -15299999 4050000 -15300000)
+    (connect (terminal smd LED16-5) (terminal smd LED15-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -11300000 21335999 -11300000 21336000 -11299999
+     22050000 -11299999 22050000 -11300000)
+    (connect (terminal smd LED26-5) (terminal smd LED25-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -11300000 20510500 -11300000 20510500 -11299999
+     20750000 -11299999 20750000 -11300000)
+    (connect (terminal smd LED26-2) (terminal smd LED26-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -11300000 18351499 -11300000 18351500 -11299999
+     19050000 -11299999 19050000 -11300000)
+    (connect (terminal smd LED27-5) (terminal smd LED26-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -11300000 17462500 -11300000 17462500 -11299999
+     17750000 -11299999 17750000 -11300000)
+    (connect (terminal smd LED27-2) (terminal smd LED27-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -11300000 15366999 -11300000 15367000 -11299999
+     16050000 -11299999 16050000 -11300000)
+    (connect (terminal smd LED28-5) (terminal smd LED27-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -11300000 13969999 -11300000 13970000 -11299999
+     14750000 -11299999 14750000 -11300000)
+    (connect (terminal smd LED28-2) (terminal smd LED28-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -11300000 12572999 -11300000 12573000 -11299999
+     13050000 -11299999 13050000 -11300000)
+    (connect (terminal smd LED29-5) (terminal smd LED28-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -11300000 10985499 -11300000 10985500 -11299999
+     11750000 -11299999 11750000 -11300000)
+    (connect (terminal smd LED29-2) (terminal smd LED29-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -11300000 9334499 -11300000 9334500 -11299999
+     10050000 -11299999 10050000 -11300000)
+    (connect (terminal smd LED30-5) (terminal smd LED29-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -11300000 8191499 -11300000 8191500 -11299999
+     8750000 -11299999 8750000 -11300000)
+    (connect (terminal smd LED30-2) (terminal smd LED30-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -11300000 6603999 -11300000 6604000 -11299999
+     7050000 -11299999 7050000 -11300000)
+    (connect (terminal smd LED31-5) (terminal smd LED30-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -11300000 5206999 -11300000 5207000 -11299999
+     5750000 -11299999 5750000 -11300000)
+    (connect (terminal smd LED31-2) (terminal smd LED31-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -11300000 3365499 -11300000 3365500 -11299999
+     4050000 -11299999 4050000 -11300000)
+    (connect (terminal smd LED32-5) (terminal smd LED31-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -9300000 21272499 -9300000 21272500 -9299999
+     22050000 -9299999 22050000 -9300000)
+    (connect (terminal smd LED34-5) (terminal smd LED33-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -9300000 19875499 -9300000 19875500 -9299999
+     20750000 -9299999 20750000 -9300000)
+    (connect (terminal smd LED34-2) (terminal smd LED34-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -9300000 18287999 -9300000 18288000 -9299999
+     19050000 -9299999 19050000 -9300000)
+    (connect (terminal smd LED35-5) (terminal smd LED34-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -9300000 17462500 -9300000 17462500 -9299999
+     17750000 -9299999 17750000 -9300000)
+    (connect (terminal smd LED35-2) (terminal smd LED35-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -9300000 15303499 -9300000 15303500 -9299999
+     16050000 -9299999 16050000 -9300000)
+    (connect (terminal smd LED36-5) (terminal smd LED35-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -9300000 13906499 -9300000 13906500 -9299999
+     14750000 -9299999 14750000 -9300000)
+    (connect (terminal smd LED36-2) (terminal smd LED36-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -9300000 12255499 -9300000 12255500 -9299999
+     13050000 -9299999 13050000 -9300000)
+    (connect (terminal smd LED37-5) (terminal smd LED36-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -9300000 11493500 -9300000 11493500 -9299999
+     11750000 -9299999 11750000 -9300000)
+    (connect (terminal smd LED37-2) (terminal smd LED37-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -9300000 9270999 -9300000 9271000 -9299999
+     10050000 -9299999 10050000 -9300000)
+    (connect (terminal smd LED38-5) (terminal smd LED37-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -9300000 8509000 -9300000 8509000 -9299999
+     8750000 -9299999 8750000 -9300000)
+    (connect (terminal smd LED38-2) (terminal smd LED38-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -9300000 6286499 -9300000 6286500 -9299999
+     7050000 -9299999 7050000 -9300000)
+    (connect (terminal smd LED39-5) (terminal smd LED38-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -9300000 5461000 -9300000 5461000 -9299999
+     5750000 -9299999 5750000 -9300000)
+    (connect (terminal smd LED39-2) (terminal smd LED39-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -9300000 3619499 -9300000 3619500 -9299999
+     4050000 -9299999 4050000 -9300000)
+    (connect (terminal smd LED40-5) (terminal smd LED39-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -7300000 21272499 -7300000 21272500 -7299999
+     22050000 -7299999 22050000 -7300000)
+    (connect (terminal smd LED42-5) (terminal smd LED41-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -7300000 19875499 -7300000 19875500 -7299999
+     20750000 -7299999 20750000 -7300000)
+    (connect (terminal smd LED42-2) (terminal smd LED42-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -7300000 18287999 -7300000 18288000 -7299999
+     19050000 -7299999 19050000 -7300000)
+    (connect (terminal smd LED43-5) (terminal smd LED42-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -7300000 16890999 -7300000 16891000 -7299999
+     17750000 -7299999 17750000 -7300000)
+    (connect (terminal smd LED43-2) (terminal smd LED43-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -7300000 15303499 -7300000 15303500 -7299999
+     16050000 -7299999 16050000 -7300000)
+    (connect (terminal smd LED44-5) (terminal smd LED43-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -7300000 13906499 -7300000 13906500 -7299999
+     14750000 -7299999 14750000 -7300000)
+    (connect (terminal smd LED44-2) (terminal smd LED44-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -7300000 12255499 -7300000 12255500 -7299999
+     13050000 -7299999 13050000 -7300000)
+    (connect (terminal smd LED45-5) (terminal smd LED44-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -7300000 11493500 -7300000 11493500 -7299999
+     11750000 -7299999 11750000 -7300000)
+    (connect (terminal smd LED45-2) (terminal smd LED45-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -7300000 9270999 -7300000 9271000 -7299999
+     10050000 -7299999 10050000 -7300000)
+    (connect (terminal smd LED46-5) (terminal smd LED45-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -7300000 8509000 -7300000 8509000 -7299999
+     8750000 -7299999 8750000 -7300000)
+    (connect (terminal smd LED46-2) (terminal smd LED46-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -7300000 6286499 -7300000 6286500 -7299999
+     7050000 -7299999 7050000 -7300000)
+    (connect (terminal smd LED47-5) (terminal smd LED46-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -7300000 5461000 -7300000 5461000 -7299999
+     5750000 -7299999 5750000 -7300000)
+    (connect (terminal smd LED47-2) (terminal smd LED47-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -7300000 3301999 -7300000 3302000 -7299999
+     4050000 -7299999 4050000 -7300000)
+    (connect (terminal smd LED48-5) (terminal smd LED47-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -5300000 21272499 -5300000 21272500 -5299999
+     22050000 -5299999 22050000 -5300000)
+    (connect (terminal smd LED50-5) (terminal smd LED49-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -5300000 19875499 -5300000 19875500 -5299999
+     20750000 -5299999 20750000 -5300000)
+    (connect (terminal smd LED50-2) (terminal smd LED50-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -5300000 18287999 -5300000 18288000 -5299999
+     19050000 -5299999 19050000 -5300000)
+    (connect (terminal smd LED51-5) (terminal smd LED50-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -5300000 16890999 -5300000 16891000 -5299999
+     17750000 -5299999 17750000 -5300000)
+    (connect (terminal smd LED51-2) (terminal smd LED51-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -5300000 15303499 -5300000 15303500 -5299999
+     16050000 -5299999 16050000 -5300000)
+    (connect (terminal smd LED52-5) (terminal smd LED51-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -5300000 13906499 -5300000 13906500 -5299999
+     14750000 -5299999 14750000 -5300000)
+    (connect (terminal smd LED52-2) (terminal smd LED52-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -5300000 12255499 -5300000 12255500 -5299999
+     13050000 -5299999 13050000 -5300000)
+    (connect (terminal smd LED53-5) (terminal smd LED52-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -5300000 11493500 -5300000 11493500 -5299999
+     11750000 -5299999 11750000 -5300000)
+    (connect (terminal smd LED53-2) (terminal smd LED53-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -5300000 9270999 -5300000 9271000 -5299999
+     10050000 -5299999 10050000 -5300000)
+    (connect (terminal smd LED54-5) (terminal smd LED53-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -5300000 8509000 -5300000 8509000 -5299999
+     8750000 -5299999 8750000 -5300000)
+    (connect (terminal smd LED54-2) (terminal smd LED54-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -5300000 6286499 -5300000 6286500 -5299999
+     7050000 -5299999 7050000 -5300000)
+    (connect (terminal smd LED55-5) (terminal smd LED54-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -5300000 5461000 -5300000 5461000 -5299999
+     5750000 -5299999 5750000 -5300000)
+    (connect (terminal smd LED55-2) (terminal smd LED55-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -5300000 3301999 -5300000 3302000 -5299999
+     4050000 -5299999 4050000 -5300000)
+    (connect (terminal smd LED56-5) (terminal smd LED55-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -3300000 21272499 -3300000 21272500 -3299999
+     22050000 -3299999 22050000 -3300000)
+    (connect (terminal smd LED58-5) (terminal smd LED57-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -3300000 19875499 -3300000 19875500 -3299999
+     20750000 -3299999 20750000 -3300000)
+    (connect (terminal smd LED58-2) (terminal smd LED58-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -3300000 18287999 -3300000 18288000 -3299999
+     19050000 -3299999 19050000 -3300000)
+    (connect (terminal smd LED59-5) (terminal smd LED58-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -3300000 16890999 -3300000 16891000 -3299999
+     17750000 -3299999 17750000 -3300000)
+    (connect (terminal smd LED59-2) (terminal smd LED59-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -3300000 15303499 -3300000 15303500 -3299999
+     16050000 -3299999 16050000 -3300000)
+    (connect (terminal smd LED60-5) (terminal smd LED59-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -3300000 13906499 -3300000 13906500 -3299999
+     14750000 -3299999 14750000 -3300000)
+    (connect (terminal smd LED60-2) (terminal smd LED60-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -3300000 12255499 -3300000 12255500 -3299999
+     13050000 -3299999 13050000 -3300000)
+    (connect (terminal smd LED61-5) (terminal smd LED60-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -3300000 10858499 -3300000 10858500 -3299999
+     11750000 -3299999 11750000 -3300000)
+    (connect (terminal smd LED61-2) (terminal smd LED61-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -3300000 9270999 -3300000 9271000 -3299999
+     10050000 -3299999 10050000 -3300000)
+    (connect (terminal smd LED62-5) (terminal smd LED61-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -3300000 7873999 -3300000 7874000 -3299999
+     8750000 -3299999 8750000 -3300000)
+    (connect (terminal smd LED62-2) (terminal smd LED62-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -3300000 6286499 -3300000 6286500 -3299999
+     7050000 -3299999 7050000 -3300000)
+    (connect (terminal smd LED63-5) (terminal smd LED62-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -3300000 4889499 -3300000 4889500 -3299999
+     5750000 -3299999 5750000 -3300000)
+    (connect (terminal smd LED63-2) (terminal smd LED63-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -3300000 3301999 -3300000 3302000 -3299999
+     4050000 -3299999 4050000 -3300000)
+    (connect (terminal smd LED64-5) (terminal smd LED63-2))
+    (attr bus)
+   )
+   (wire (path TOP 177800  1050000 -3300000 1904999 -3300000 1905000 -3299999
+     2750000 -3299999 2750000 -3300000)
+    (connect (terminal smd LED64-2) (terminal smd LED64-5))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -17300000 16350000 -17300000 16150000 -17300000)
+    (connect (terminal smd LED3-5) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  16050000 -17300000 15050000 -17300000 14750000 -17300000)
+    (connect (terminal smd LED3-2) (terminal smd LED4-5))
+    (type protect)
+   )
+   (wire (path TOP 177800  16150000 -17300000 16050000 -17300000)
+    (connect (terminal wire) (terminal smd LED3-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  20750000 -17300000 19100000 -17300000)
+    (connect (terminal smd LED2-5) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  19050000 -17300000 17788709 -17300000 17779231 -17290522
+     17750000 -17300000)
+    (connect (terminal smd LED2-2) (terminal smd LED3-5))
+    (type protect)
+   )
+   (wire (path TOP 177800  19100000 -17300000 19050000 -17300000)
+    (connect (terminal wire) (terminal smd LED2-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  22050000 -17300000 20750000 -17300000)
+    (connect (terminal smd LED1-2) (terminal smd LED2-5))
+    (type protect)
+   )
+   (wire (path TOP 177800  22050000 -17300000 22108495 -17290469 22118026 -17300000
+     23750000 -17300000)
+    (connect (terminal smd LED1-2) (terminal smd LED1-5))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -15500000 500000 -13650000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -13506783 500000 -11457130)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -13506783 706440 -13300343 1049657 -13300343
+     1050000 -13300000)
+    (connect (terminal wire) (terminal smd LED24-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -13650000 500000 -13506783)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  1050000 -17300000 1076530 -17290535 1067065 -17300000
+     650000 -17300000 500000 -17150000 500000 -15700000)
+    (connect (terminal smd LED8-2) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -15500000 700000 -15300000 1050000 -15300000)
+    (connect (terminal wire) (terminal smd LED16-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -15700000 500000 -15500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -5530457 730945 -5299512 1076296 -5299512
+     1080009 -5295799 1050000 -5300000)
+    (connect (terminal wire) (terminal smd LED56-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -7450000 500000 -5530457)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -5530457 500000 -3521519 721049 -3300470
+     1049530 -3300470 1050000 -3300000)
+    (connect (terminal wire) (terminal smd LED64-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -7450000 650000 -7300000 1050000 -7300000)
+    (connect (terminal wire) (terminal smd LED48-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -9428959 500000 -7450000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -9428959 628288 -9300671 1049329 -9300671
+     1050000 -9300000)
+    (connect (terminal wire) (terminal smd LED40-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -11457130 500000 -9428959)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 177800  500000 -11457130 655494 -11301636 1048364 -11301636
+     1050000 -11300000)
+    (connect (terminal wire) (terminal smd LED32-2))
+    (type protect)
+   )
+   (wire (path TOP 177800  4050000 -17300000 4090230 -17290473 4080703 -17300000
+     2750000 -17300000)
+    (connect (terminal smd LED7-2) (terminal smd LED8-5))
+    (type protect)
+   )
+   (via $VIA_POWER 22542500 -11493500)
+   (via $VIA_POWER 23495000 -11493500)
+   (via $VIA_POWER 22542500 -15494000)
+   (via $VIA_POWER 24257000 -15494000)
+   (via $VIA_POWER 22542500 -5397500)
+   (via $VIA_POWER 24257000 -5397500)
+   (via $VIA_POWER 22542500 -13271500)
+   (via $VIA_POWER 23749000 -13589000)
+   (via $VIA_POWER 22542500 -7366000)
+   (via $VIA_POWER 23431500 -7366000)
+   (via $VIA_POWER 22542500 -9398000)
+   (via $VIA_POWER 23431500 -9398000)
+   (via $VIA_POWER 22542500 -3429000)
+   (via $VIA_POWER 24257000 -3429000)
+   )
+   (Net LEDSTRIP_A 
+   (rule
+   )
+   (wire (path TOP 177800  1050000 -17000000 1713719 -17000000 1967719 -16746000
+     1967719 -16212379 2175211 -16004887 22807182 -16004887 22998937 -15813132
+     22998937 -15251050 23252937 -14997050 23747050 -14997050 23750000 -15000000)
+    (connect (terminal smd LED8-1) (terminal smd LED9-4))
+    (type protect)
+   )
+   )
+   (Net LEDSTRIP_B 
+   (rule
+   )
+   (wire (path TOP 177800  23750000 -13000000 23749841 -12999841 23181863 -12999841
+     23000000 -13181704 23000000 -13800000 22800000 -14000000 2200000 -14000000
+     1981694 -14218306 1981694 -14734559 1716253 -15000000 1050000 -15000000)
+    (connect (terminal smd LED17-4) (terminal smd LED16-1))
+    (type protect)
+   )
+   )
+   (Net LEDSTRIP_C 
+   (rule
+   )
+   (wire (path TOP 177800  1050000 -13000000 1713135 -13000000 2015102 -12698033
+     2015102 -12248344 2267125 -11996321 22783321 -11996321 22996468 -11783174
+     22996468 -11173174 23171468 -10998174 23773797 -10998174 23781468 -10990503
+     23750000 -11000000)
+    (connect (terminal smd LED24-1) (terminal smd LED25-4))
+    (type protect)
+   )
+   )
+   (Net LEDSTRIP_D 
+   (rule
+   )
+   (wire (path TOP 177800  1050000 -11000000 1700000 -11000000 2000000 -10700000
+     2000000 -10300000 2300000 -10000000 22768926 -10000000 23000283 -9768643
+     23000283 -9149717 23150000 -9000000 23830119 -9000000 23839629 -9009510
+     23750000 -9000000)
+    (connect (terminal smd LED32-1) (terminal smd LED33-4))
+    (type protect)
+   )
+   )
+   (Net LEDSTRIP_E 
+   (rule
+   )
+   (wire (path TOP 177800  1050000 -9000000 1700000 -9000000 2000000 -8700000
+     2000000 -8250000 2250000 -8000000 22800000 -8000000 23000000 -7800000
+     23000000 -7150000 23150000 -7000000 23650000 -7000000 23750000 -7000000)
+    (connect (terminal smd LED40-1) (terminal smd LED41-4))
+    (type protect)
+   )
+   )
+   (Net LEDSTRIP_F 
+   (rule
+   )
+   (wire (path TOP 177800  1050000 -7000000 1750000 -7000000 2000000 -6750000
+     2000000 -6221420 2223704 -5997716 22721508 -5997716 22999375 -5719849
+     22999375 -5225959 23226720 -4998614 23848614 -4998614 23850000 -5000000
+     23750000 -5000000)
+    (connect (terminal smd LED48-1) (terminal smd LED49-4))
+    (type protect)
+   )
+   )
+   (Net LEDSTRIP_G 
+   (rule
+   )
+   (wire (path TOP 177800  1050000 -5000000 1733785 -5000000 2003127 -4730658
+     2003127 -4196873 2200000 -4000000 22800000 -4000000 23000000 -3800000
+     23000000 -3150000 23150000 -3000000 23750000 -3000000)
+    (connect (terminal smd LED56-1) (terminal smd LED57-4))
+    (type protect)
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 177800  2286000 -8699500 2286000 -6731000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path TOP 177800  1714500 -6413500 1714500 -6350000 1050000 -6350000
+     1050000 -6700000)
+    (connect (terminal via) (terminal smd LED48-0))
+   )
+   (wire (path BOT 177800  2540000 -6413500 1714500 -6413500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  2540000 -6413500 2540000 -6731000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  1968500 -14351000 1968500 -16065500 2032000 -16065500
+     2032000 -16637000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  1968500 -14351000 2286000 -14351000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 177800  1651000 -12382500 1050000 -12382500 1050000 -12700000)
+    (connect (terminal via) (terminal smd LED24-0))
+   )
+   (wire (path TOP 177800  2286000 -14668500 2750000 -14668500 2750000 -14700000)
+    (connect (terminal via) (terminal smd LED16-3))
+   )
+   (wire (path TOP 177800  2286000 -4762500 2286000 -4700000 2750000 -4700000)
+    (connect (terminal via) (terminal smd LED56-3))
+   )
+   (wire (path TOP 177800  2286000 -10731500 2286000 -10700000 2750000 -10700000)
+    (connect (terminal via) (terminal smd LED32-3))
+   )
+   (wire (path TOP 177800  1079500 -16383000 1050000 -16383000 1050000 -16700000)
+    (connect (terminal via) (terminal smd LED8-0))
+   )
+   (wire (path BOT 177800  2032000 -16637000 1079500 -16637000 1079500 -16383000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  2286000 -10985500 2286000 -8699500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  2286000 -10985500 2286000 -10731500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  1968500 -12382500 2286000 -12382500 2286000 -10985500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  1968500 -12382500 1651000 -12382500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path TOP 177800  2413000 -12700000 2750000 -12700000)
+    (connect (terminal via) (terminal smd LED24-3))
+   )
+   (wire (path BOT 177800  1968500 -12700000 2413000 -12700000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path TOP 177800  2794000 -2349500 2794000 -2700000 2750000 -2700000)
+    (connect (terminal via) (terminal smd LED64-3))
+   )
+   (wire (path BOT 177800  2286000 -4445000 2286000 -2349500 2794000 -2349500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  1968500 -12700000 1651000 -12700000 1651000 -14351000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  1651000 -10731500 2286000 -10731500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  2540000 -5715000 2222500 -5715000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  2286000 -4508500 2286000 -5397500 2222500 -5397500
+     2222500 -5715000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  2286000 -4508500 2286000 -4762500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  2286000 -4445000 2286000 -4508500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  1714500 -4445000 2286000 -4445000)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path BOT 177800  1968500 -12700000 1968500 -12382500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  1968500 -8382000 1968500 -8699500 2286000 -8699500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 177800  1651000 -8382000 1968500 -8382000)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path TOP 177800  2286000 -6731000 2286000 -6700000 2750000 -6700000)
+    (connect (terminal via) (terminal smd LED48-3))
+   )
+   (wire (path BOT 177800  2540000 -6731000 2286000 -6731000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path TOP 177800  2286000 -16637000 2286000 -16700000 2750000 -16700000)
+    (connect (terminal via) (terminal smd LED8-3))
+   )
+   (wire (path BOT 177800  2032000 -16637000 2286000 -16637000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  2286000 -14351000 2286000 -14668500)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 177800  2540000 -5715000 2540000 -6413500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 177800  1050000 -8700000 1050000 -8382000 1651000 -8382000)
+    (connect (terminal smd LED40-0) (terminal via))
+   )
+   (wire (path BOT 177800  2413000 -8699500 2286000 -8699500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 177800  1050000 -14700000 1050000 -14351000 1651000 -14351000)
+    (connect (terminal smd LED16-0) (terminal via))
+   )
+   (wire (path BOT 177800  1651000 -14351000 1968500 -14351000)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path TOP 177800  1050000 -10700000 1050000 -10350500 1651000 -10350500)
+    (connect (terminal smd LED32-0) (terminal via))
+   )
+   (wire (path BOT 177800  1651000 -10350500 1651000 -10731500)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path TOP 177800  1050000 -4700000 1050000 -4381500 1714500 -4381500
+     1714500 -4445000)
+    (connect (terminal smd LED56-0) (terminal via))
+   )
+   (wire (path TOP 177800  2750000 -8700000 2750000 -8699500 2413000 -8699500)
+    (connect (terminal smd LED40-3) (terminal via))
+   )
+   (wire (path TOP 177800  3175000 -12700000 3301999 -12700000 3302000 -12699999
+     4050000 -12699999 4050000 -12700000)
+    (connect (terminal wire) (terminal smd LED23-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -16700000 23304499 -16700000 23304500 -16699999
+     23750000 -16699999 23750000 -16700000)
+    (connect (terminal smd LED1-0) (terminal smd LED1-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -16700000 21272499 -16700000 21272500 -16699999
+     22050000 -16699999 22050000 -16700000)
+    (connect (terminal smd LED2-3) (terminal smd LED1-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -16700000 20192999 -16700000 20193000 -16699999
+     20750000 -16699999 20750000 -16700000)
+    (connect (terminal smd LED2-0) (terminal smd LED2-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -16700000 18287999 -16700000 18288000 -16699999
+     19050000 -16699999 19050000 -16700000)
+    (connect (terminal smd LED3-3) (terminal smd LED2-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -16700000 17208499 -16700000 17208500 -16699999
+     17750000 -16699999 17750000 -16700000)
+    (connect (terminal smd LED3-0) (terminal smd LED3-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -16700000 15303499 -16700000 15303500 -16699999
+     16050000 -16699999 16050000 -16700000)
+    (connect (terminal smd LED4-3) (terminal smd LED3-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -16700000 13906499 -16700000 13906500 -16699999
+     14750000 -16699999 14750000 -16700000)
+    (connect (terminal smd LED4-0) (terminal smd LED4-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -16700000 12255499 -16700000 12255500 -16699999
+     13050000 -16699999 13050000 -16700000)
+    (connect (terminal smd LED5-3) (terminal smd LED4-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -16700000 10858499 -16700000 10858500 -16699999
+     11750000 -16699999 11750000 -16700000)
+    (connect (terminal smd LED5-0) (terminal smd LED5-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -16700000 9270999 -16700000 9271000 -16699999
+     10050000 -16699999 10050000 -16700000)
+    (connect (terminal smd LED6-3) (terminal smd LED5-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -16700000 7873999 -16700000 7874000 -16699999
+     8750000 -16699999 8750000 -16700000)
+    (connect (terminal smd LED6-0) (terminal smd LED6-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -16700000 6286499 -16700000 6286500 -16699999
+     7050000 -16699999 7050000 -16700000)
+    (connect (terminal smd LED7-3) (terminal smd LED6-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -16700000 4889499 -16700000 4889500 -16699999
+     5750000 -16699999 5750000 -16700000)
+    (connect (terminal smd LED7-0) (terminal smd LED7-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -14700000 23304499 -14700000 23304500 -14699999
+     23750000 -14699999 23750000 -14700000)
+    (connect (terminal smd LED9-0) (terminal smd LED9-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -14700000 21272499 -14700000 21272500 -14699999
+     22050000 -14699999 22050000 -14700000)
+    (connect (terminal smd LED10-3) (terminal smd LED9-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -14700000 19875499 -14700000 19875500 -14699999
+     20750000 -14699999 20750000 -14700000)
+    (connect (terminal smd LED10-0) (terminal smd LED10-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -14700000 18287999 -14700000 18288000 -14699999
+     19050000 -14699999 19050000 -14700000)
+    (connect (terminal smd LED11-3) (terminal smd LED10-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -14700000 16890999 -14700000 16891000 -14699999
+     17750000 -14699999 17750000 -14700000)
+    (connect (terminal smd LED11-0) (terminal smd LED11-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -14700000 15303499 -14700000 15303500 -14699999
+     16050000 -14699999 16050000 -14700000)
+    (connect (terminal smd LED12-3) (terminal smd LED11-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -14700000 13906499 -14700000 13906500 -14699999
+     14750000 -14699999 14750000 -14700000)
+    (connect (terminal smd LED12-0) (terminal smd LED12-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -14700000 12255499 -14700000 12255500 -14699999
+     13050000 -14699999 13050000 -14700000)
+    (connect (terminal smd LED13-3) (terminal smd LED12-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -14700000 10858499 -14700000 10858500 -14699999
+     11750000 -14699999 11750000 -14700000)
+    (connect (terminal smd LED13-0) (terminal smd LED13-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -14700000 9270999 -14700000 9271000 -14699999
+     10050000 -14699999 10050000 -14700000)
+    (connect (terminal smd LED14-3) (terminal smd LED13-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -14700000 7873999 -14700000 7874000 -14699999
+     8750000 -14699999 8750000 -14700000)
+    (connect (terminal smd LED14-0) (terminal smd LED14-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -14700000 6286499 -14700000 6286500 -14699999
+     7050000 -14699999 7050000 -14700000)
+    (connect (terminal smd LED15-3) (terminal smd LED14-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -14700000 4889499 -14700000 4889500 -14699999
+     5750000 -14699999 5750000 -14700000)
+    (connect (terminal smd LED15-0) (terminal smd LED15-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -14700000 3301999 -14700000 3302000 -14699999
+     4050000 -14699999 4050000 -14700000)
+    (connect (terminal smd LED16-3) (terminal smd LED15-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -12700000 23304499 -12700000 23304500 -12699999
+     23750000 -12699999 23750000 -12700000)
+    (connect (terminal smd LED17-0) (terminal smd LED17-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -12700000 21272499 -12700000 21272500 -12699999
+     22050000 -12699999 22050000 -12700000)
+    (connect (terminal smd LED18-3) (terminal smd LED17-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -12700000 20192999 -12700000 20193000 -12699999
+     20750000 -12699999 20750000 -12700000)
+    (connect (terminal smd LED18-0) (terminal smd LED18-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -12700000 18287999 -12700000 18288000 -12699999
+     19050000 -12699999 19050000 -12700000)
+    (connect (terminal smd LED19-3) (terminal smd LED18-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -12700000 17208499 -12700000 17208500 -12699999
+     17750000 -12699999 17750000 -12700000)
+    (connect (terminal smd LED19-0) (terminal smd LED19-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -12700000 15303499 -12700000 15303500 -12699999
+     16050000 -12699999 16050000 -12700000)
+    (connect (terminal smd LED20-3) (terminal smd LED19-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -12700000 13906499 -12700000 13906500 -12699999
+     14750000 -12699999 14750000 -12700000)
+    (connect (terminal smd LED20-0) (terminal smd LED20-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -12700000 12255499 -12700000 12255500 -12699999
+     13050000 -12699999 13050000 -12700000)
+    (connect (terminal smd LED21-3) (terminal smd LED20-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -12700000 10858499 -12700000 10858500 -12699999
+     11750000 -12699999 11750000 -12700000)
+    (connect (terminal smd LED21-0) (terminal smd LED21-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -12700000 9270999 -12700000 9271000 -12699999
+     10050000 -12699999 10050000 -12700000)
+    (connect (terminal smd LED22-3) (terminal smd LED21-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -12700000 7873999 -12700000 7874000 -12699999
+     8750000 -12699999 8750000 -12700000)
+    (connect (terminal smd LED22-0) (terminal smd LED22-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -12700000 6286499 -12700000 6286500 -12699999
+     7050000 -12699999 7050000 -12700000)
+    (connect (terminal smd LED23-3) (terminal smd LED22-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -12700000 4889499 -12700000 4889500 -12699999
+     5750000 -12699999 5750000 -12700000)
+    (connect (terminal smd LED23-0) (terminal smd LED23-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -12700000 3175000 -12700000)
+    (connect (terminal smd LED24-3) (terminal wire))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -10700000 23304499 -10700000 23304500 -10699999
+     23750000 -10699999 23750000 -10700000)
+    (connect (terminal smd LED25-0) (terminal smd LED25-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -10700000 21272499 -10700000 21272500 -10699999
+     22050000 -10699999 22050000 -10700000)
+    (connect (terminal smd LED26-3) (terminal smd LED25-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -10700000 19875499 -10700000 19875500 -10699999
+     20750000 -10699999 20750000 -10700000)
+    (connect (terminal smd LED26-0) (terminal smd LED26-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -10700000 18287999 -10700000 18288000 -10699999
+     19050000 -10699999 19050000 -10700000)
+    (connect (terminal smd LED27-3) (terminal smd LED26-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -10700000 16890999 -10700000 16891000 -10699999
+     17750000 -10699999 17750000 -10700000)
+    (connect (terminal smd LED27-0) (terminal smd LED27-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -10700000 15303499 -10700000 15303500 -10699999
+     16050000 -10699999 16050000 -10700000)
+    (connect (terminal smd LED28-3) (terminal smd LED27-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -10700000 14223999 -10700000 14224000 -10699999
+     14750000 -10699999 14750000 -10700000)
+    (connect (terminal smd LED28-0) (terminal smd LED28-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -10700000 11750000 -10699999 13050000 -10699999
+     13050000 -10700000)
+    (connect (terminal smd LED29-3) (terminal smd LED28-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -10700000 11239499 -10700000 11239500 -10699999
+     11750000 -10699999 11750000 -10700000)
+    (connect (terminal smd LED29-0) (terminal smd LED29-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -10700000 9270999 -10700000 9271000 -10699999
+     10050000 -10699999 10050000 -10700000)
+    (connect (terminal smd LED30-3) (terminal smd LED29-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -10700000 7873999 -10700000 7874000 -10699999
+     8750000 -10699999 8750000 -10700000)
+    (connect (terminal smd LED30-0) (terminal smd LED30-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -10700000 5750000 -10699999 7050000 -10699999
+     7050000 -10700000)
+    (connect (terminal smd LED31-3) (terminal smd LED30-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -10700000 4889499 -10700000 4889500 -10699999
+     5750000 -10699999 5750000 -10700000)
+    (connect (terminal smd LED31-0) (terminal smd LED31-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -10700000 3301999 -10700000 3302000 -10699999
+     4050000 -10699999 4050000 -10700000)
+    (connect (terminal smd LED32-3) (terminal smd LED31-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -8700000 23304499 -8700000 23304500 -8699999
+     23750000 -8699999 23750000 -8700000)
+    (connect (terminal smd LED33-0) (terminal smd LED33-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -8700000 21272499 -8700000 21272500 -8699999
+     22050000 -8699999 22050000 -8700000)
+    (connect (terminal smd LED34-3) (terminal smd LED33-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -8700000 19875499 -8700000 19875500 -8699999
+     20750000 -8699999 20750000 -8700000)
+    (connect (terminal smd LED34-0) (terminal smd LED34-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -8700000 18287999 -8700000 18288000 -8699999
+     19050000 -8699999 19050000 -8700000)
+    (connect (terminal smd LED35-3) (terminal smd LED34-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -8700000 16890999 -8700000 16891000 -8699999
+     17750000 -8699999 17750000 -8700000)
+    (connect (terminal smd LED35-0) (terminal smd LED35-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -8700000 15303499 -8700000 15303500 -8699999
+     16050000 -8699999 16050000 -8700000)
+    (connect (terminal smd LED36-3) (terminal smd LED35-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -8700000 13906499 -8700000 13906500 -8699999
+     14750000 -8699999 14750000 -8700000)
+    (connect (terminal smd LED36-0) (terminal smd LED36-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -8700000 12255499 -8700000 12255500 -8699999
+     13050000 -8699999 13050000 -8700000)
+    (connect (terminal smd LED37-3) (terminal smd LED36-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -8700000 10858499 -8700000 10858500 -8699999
+     11750000 -8699999 11750000 -8700000)
+    (connect (terminal smd LED37-0) (terminal smd LED37-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -8700000 9270999 -8700000 9271000 -8699999
+     10050000 -8699999 10050000 -8700000)
+    (connect (terminal smd LED38-3) (terminal smd LED37-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -8700000 7873999 -8700000 7874000 -8699999
+     8750000 -8699999 8750000 -8700000)
+    (connect (terminal smd LED38-0) (terminal smd LED38-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -8700000 6286499 -8700000 6286500 -8699999
+     7050000 -8699999 7050000 -8700000)
+    (connect (terminal smd LED39-3) (terminal smd LED38-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -8700000 4889499 -8700000 4889500 -8699999
+     5750000 -8699999 5750000 -8700000)
+    (connect (terminal smd LED39-0) (terminal smd LED39-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -8700000 3301999 -8700000 3302000 -8699999
+     4050000 -8699999 4050000 -8700000)
+    (connect (terminal smd LED40-3) (terminal smd LED39-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -6700000 23304499 -6700000 23304500 -6699999
+     23750000 -6699999 23750000 -6700000)
+    (connect (terminal smd LED41-0) (terminal smd LED41-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -6700000 21272499 -6700000 21272500 -6699999
+     22050000 -6699999 22050000 -6700000)
+    (connect (terminal smd LED42-3) (terminal smd LED41-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -6700000 19875499 -6700000 19875500 -6699999
+     20750000 -6699999 20750000 -6700000)
+    (connect (terminal smd LED42-0) (terminal smd LED42-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -6700000 18287999 -6700000 18288000 -6699999
+     19050000 -6699999 19050000 -6700000)
+    (connect (terminal smd LED43-3) (terminal smd LED42-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -6700000 16890999 -6700000 16891000 -6699999
+     17750000 -6699999 17750000 -6700000)
+    (connect (terminal smd LED43-0) (terminal smd LED43-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -6700000 15303499 -6700000 15303500 -6699999
+     16050000 -6699999 16050000 -6700000)
+    (connect (terminal smd LED44-3) (terminal smd LED43-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -6700000 13906499 -6700000 13906500 -6699999
+     14750000 -6699999 14750000 -6700000)
+    (connect (terminal smd LED44-0) (terminal smd LED44-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -6700000 12255499 -6700000 12255500 -6699999
+     13050000 -6699999 13050000 -6700000)
+    (connect (terminal smd LED45-3) (terminal smd LED44-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -6700000 10858499 -6700000 10858500 -6699999
+     11750000 -6699999 11750000 -6700000)
+    (connect (terminal smd LED45-0) (terminal smd LED45-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -6700000 9270999 -6700000 9271000 -6699999
+     10050000 -6699999 10050000 -6700000)
+    (connect (terminal smd LED46-3) (terminal smd LED45-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -6700000 7873999 -6700000 7874000 -6699999
+     8750000 -6699999 8750000 -6700000)
+    (connect (terminal smd LED46-0) (terminal smd LED46-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -6700000 6286499 -6700000 6286500 -6699999
+     7050000 -6699999 7050000 -6700000)
+    (connect (terminal smd LED47-3) (terminal smd LED46-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -6700000 4889499 -6700000 4889500 -6699999
+     5750000 -6699999 5750000 -6700000)
+    (connect (terminal smd LED47-0) (terminal smd LED47-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -6700000 3301999 -6700000 3302000 -6699999
+     4050000 -6699999 4050000 -6700000)
+    (connect (terminal smd LED48-3) (terminal smd LED47-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -4700000 23304499 -4700000 23304500 -4699999
+     23750000 -4699999 23750000 -4700000)
+    (connect (terminal smd LED49-0) (terminal smd LED49-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -4700000 21272499 -4700000 21272500 -4699999
+     22050000 -4699999 22050000 -4700000)
+    (connect (terminal smd LED50-3) (terminal smd LED49-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -4700000 19875499 -4700000 19875500 -4699999
+     20750000 -4699999 20750000 -4700000)
+    (connect (terminal smd LED50-0) (terminal smd LED50-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -4700000 18287999 -4700000 18288000 -4699999
+     19050000 -4699999 19050000 -4700000)
+    (connect (terminal smd LED51-3) (terminal smd LED50-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -4700000 16890999 -4700000 16891000 -4699999
+     17750000 -4699999 17750000 -4700000)
+    (connect (terminal smd LED51-0) (terminal smd LED51-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -4700000 15303499 -4700000 15303500 -4699999
+     16050000 -4699999 16050000 -4700000)
+    (connect (terminal smd LED52-3) (terminal smd LED51-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -4700000 13906499 -4700000 13906500 -4699999
+     14750000 -4699999 14750000 -4700000)
+    (connect (terminal smd LED52-0) (terminal smd LED52-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -4700000 12255499 -4700000 12255500 -4699999
+     13050000 -4699999 13050000 -4700000)
+    (connect (terminal smd LED53-3) (terminal smd LED52-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -4700000 10858499 -4700000 10858500 -4699999
+     11750000 -4699999 11750000 -4700000)
+    (connect (terminal smd LED53-0) (terminal smd LED53-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -4700000 9270999 -4700000 9271000 -4699999
+     10050000 -4699999 10050000 -4700000)
+    (connect (terminal smd LED54-3) (terminal smd LED53-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -4700000 7873999 -4700000 7874000 -4699999
+     8750000 -4699999 8750000 -4700000)
+    (connect (terminal smd LED54-0) (terminal smd LED54-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -4700000 6286499 -4700000 6286500 -4699999
+     7050000 -4699999 7050000 -4700000)
+    (connect (terminal smd LED55-3) (terminal smd LED54-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -4700000 4889499 -4700000 4889500 -4699999
+     5750000 -4699999 5750000 -4700000)
+    (connect (terminal smd LED55-0) (terminal smd LED55-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -4700000 3301999 -4700000 3302000 -4699999
+     4050000 -4699999 4050000 -4700000)
+    (connect (terminal smd LED56-3) (terminal smd LED55-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  22050000 -2700000 22859999 -2700000 22860000 -2699999
+     23750000 -2699999 23750000 -2700000)
+    (connect (terminal smd LED57-0) (terminal smd LED57-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  20750000 -2700000 21272499 -2700000 21272500 -2699999
+     22050000 -2699999 22050000 -2700000)
+    (connect (terminal smd LED58-3) (terminal smd LED57-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  19050000 -2700000 19875499 -2700000 19875500 -2699999
+     20750000 -2699999 20750000 -2700000)
+    (connect (terminal smd LED58-0) (terminal smd LED58-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  17750000 -2700000 18287999 -2700000 18288000 -2699999
+     19050000 -2699999 19050000 -2700000)
+    (connect (terminal smd LED59-3) (terminal smd LED58-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  16050000 -2700000 16890999 -2700000 16891000 -2699999
+     17750000 -2699999 17750000 -2700000)
+    (connect (terminal smd LED59-0) (terminal smd LED59-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  14750000 -2700000 15303499 -2700000 15303500 -2699999
+     16050000 -2699999 16050000 -2700000)
+    (connect (terminal smd LED60-3) (terminal smd LED59-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  13050000 -2700000 14223999 -2700000 14224000 -2699999
+     14750000 -2699999 14750000 -2700000)
+    (connect (terminal smd LED60-0) (terminal smd LED60-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  11750000 -2700000 12255499 -2700000 12255500 -2699999
+     13050000 -2699999 13050000 -2700000)
+    (connect (terminal smd LED61-3) (terminal smd LED60-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  10050000 -2700000 11239499 -2700000 11239500 -2699999
+     11750000 -2699999 11750000 -2700000)
+    (connect (terminal smd LED61-0) (terminal smd LED61-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  8750000 -2700000 9270999 -2700000 9271000 -2699999
+     10050000 -2699999 10050000 -2700000)
+    (connect (terminal smd LED62-3) (terminal smd LED61-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  7050000 -2700000 8191499 -2700000 8191500 -2699999
+     8750000 -2699999 8750000 -2700000)
+    (connect (terminal smd LED62-0) (terminal smd LED62-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  5750000 -2700000 6286499 -2700000 6286500 -2699999
+     7050000 -2699999 7050000 -2700000)
+    (connect (terminal smd LED63-3) (terminal smd LED62-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -2700000 5079999 -2700000 5080000 -2699999
+     5750000 -2699999 5750000 -2700000)
+    (connect (terminal smd LED63-0) (terminal smd LED63-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  1050000 -2700000 1904999 -2700000 1905000 -2699999
+     2750000 -2699999 2750000 -2700000)
+    (connect (terminal smd LED64-0) (terminal smd LED64-3))
+    (attr bus)
+   )
+   (wire (path TOP 177800  2750000 -2700000 3301999 -2700000 3302000 -2699999
+     4050000 -2699999 4050000 -2700000)
+    (connect (terminal smd LED64-3) (terminal smd LED63-0))
+    (attr bus)
+   )
+   (wire (path TOP 177800  4050000 -16700000 2850000 -16700000)
+    (connect (terminal smd LED7-0) (terminal smd LED8-3))
+    (type protect)
+   )
+   (via $VIA_POWER 1714500 -6413500)
+   (via $VIA_POWER 2286000 -14668500)
+   (via $VIA_POWER 1079500 -16383000)
+   (via $VIA_POWER 2413000 -12700000)
+   (via $VIA_POWER 2794000 -2349500)
+   (via $VIA_POWER 2286000 -6731000)
+   (via $VIA_POWER 2286000 -16637000)
+   (via $VIA_POWER 1651000 -8382000)
+   (via $VIA_POWER 1651000 -12382500)
+   (via $VIA_POWER 1651000 -14351000)
+   (via $VIA_POWER 1651000 -10350500)
+   (via $VIA_POWER 2286000 -10731500)
+   (via $VIA_POWER 1714500 -4445000)
+   (via $VIA_POWER 2286000 -4762500)
+   (via $VIA_POWER 2413000 -8699500)
+   )
+  )
+ )

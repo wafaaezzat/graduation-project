@@ -1,0 +1,23 @@
+10 0010 1101
+
+ADLAR = 0 
+
+
+ADCL 0010 1101
+
+ADCH 0000 0010
+
+ADLAR = 1
+
+ADCL 0100 0000
+
+ADCH 1000 1011
+
+ADCSRA 
+
+1 0 0 0 0 1 1 1 // division factor is 128 && adc is enabled
+
+
+ADMUX
+
+0 1 0 0 0 0 0 0 // AVCC connected with AREF && ADC0 is enbaled

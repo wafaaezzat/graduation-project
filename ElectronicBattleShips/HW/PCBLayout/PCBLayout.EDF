@@ -1,0 +1,1417 @@
+(PCB PCBLayout
+ (parser
+  (host_cad ARES)
+  (host_version 8.5 SP0)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -0.25400 -200.25400 250.25400 0.25400))
+  (keepout
+   (path signal 0.20320 28.50000 0.00000 28.50000 0.00000)
+  )
+  (boundary (path signal 0.20320 0.00000 -5.00000 0.00000 -195.00000))
+  (boundary (path signal 0.20320 5.00000 0.00000 245.00000 0.00000))
+  (boundary (path signal 0.20320 250.00000 -5.00000 250.00000 -195.00000))
+  (boundary (path signal 0.20320 245.00000 -200.00000 5.00000 -200.00000))
+  (boundary (path signal 0.20320 0.00000 -5.00000 0.02525 -4.48036 0.09949 -3.97766
+   0.22041 -3.49419 0.38574 -3.03223 0.59318 -2.59407 0.84045 -2.18201 1.12526 -1.79832
+   1.44531 -1.44531 1.79832 -1.12526 2.18201 -0.84045 2.59407 -0.59319 3.03223 -0.38574
+   3.49419 -0.22041 3.97766 -0.09949 4.48036 -0.02525 5.00000 0.00000))
+  (boundary (path signal 0.20320 0.00000 -195.00000 0.02525 -195.51964 0.09949 -196.02234
+   0.22041 -196.50581 0.38574 -196.96777 0.59318 -197.40593 0.84045 -197.81799 1.12526 -198.20168
+   1.44531 -198.55469 1.79832 -198.87474 2.18201 -199.15955 2.59407 -199.40681 3.03223 -199.61426
+   3.49419 -199.77959 3.97766 -199.90051 4.48036 -199.97475 5.00000 -200.00000))
+  (boundary (path signal 0.20320 245.00000 0.00000 245.51964 -0.02525 246.02234 -0.09949
+   246.50581 -0.22041 246.96777 -0.38574 247.40593 -0.59319 247.81799 -0.84045 248.20168 -1.12526
+   248.55469 -1.44531 248.87474 -1.79832 249.15955 -2.18201 249.40682 -2.59407 249.61426 -3.03223
+   249.77959 -3.49419 249.90051 -3.97766 249.97475 -4.48036 250.00000 -5.00000))
+  (boundary (path signal 0.20320 245.00000 -200.00000 245.51964 -199.97475 246.02234 -199.90051
+   246.50581 -199.77959 246.96777 -199.61426 247.40593 -199.40681 247.81799 -199.15955
+   248.20168 -198.87474 248.55469 -198.55469 248.87474 -198.20168 249.15955 -197.81799
+   249.40682 -197.40593 249.61426 -196.96777 249.77959 -196.50581 249.90051 -196.02234
+   249.97475 -195.51964 250.00000 -195.00000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction vertical))
+  (grid via  0.63500)
+  (grid wire 0.63500)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA_POWER
+   $VIA_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 1.77800)
+   (clearance 1.01600)
+   (clearance 1.01600 (type wire_via))
+   (clearance 1.01600 (type wire_smd))
+   (clearance 1.01600 (type wire_pin))
+   (clearance 1.01600 (type wire_wire))
+   (clearance 0.50800 (type via_pin))
+   (clearance 0.50800 (type via_via))
+   (clearance 0.50800 (type via_smd))
+  )
+ )
+ (placement
+  (component WS2812B_1_LED1 (place LED1 220.50000 -167.00000 front 270))
+  (component WS2812B_1_LED2 (place LED2 190.50000 -167.00000 front 270))
+  (component WS2812B_1_LED3 (place LED3 160.50000 -167.00000 front 270))
+  (component WS2812B_1_LED4 (place LED4 130.50000 -167.00000 front 270))
+  (component WS2812B_1_LED5 (place LED5 100.50000 -167.00000 front 270))
+  (component WS2812B_1_LED6 (place LED6 70.50000 -167.00000 front 270))
+  (component WS2812B_1_LED7 (place LED7 40.50000 -167.00000 front 270))
+  (component WS2812B_1_LED8 (place LED8 10.50000 -167.00000 front 270))
+  (component WS2812B_1_LED17 (place LED17 220.50000 -127.00000 front 270))
+  (component WS2812B_1_LED18 (place LED18 190.50000 -127.00000 front 270))
+  (component WS2812B_1_LED19 (place LED19 160.50000 -127.00000 front 270))
+  (component WS2812B_1_LED20 (place LED20 130.50000 -127.00000 front 270))
+  (component WS2812B_1_LED21 (place LED21 100.50000 -127.00000 front 270))
+  (component WS2812B_1_LED22 (place LED22 70.50000 -127.00000 front 270))
+  (component WS2812B_1_LED23 (place LED23 40.50000 -127.00000 front 270))
+  (component WS2812B_1_LED24 (place LED24 10.50000 -127.00000 front 270))
+  (component WS2812B_1_LED25 (place LED25 220.50000 -107.00000 front 270))
+  (component WS2812B_1_LED9 (place LED9 220.50000 -147.00000 front 270))
+  (component WS2812B_1_LED10 (place LED10 190.50000 -147.00000 front 270))
+  (component WS2812B_1_LED11 (place LED11 160.50000 -147.00000 front 270))
+  (component WS2812B_1_LED12 (place LED12 130.50000 -147.00000 front 270))
+  (component WS2812B_1_LED13 (place LED13 100.50000 -147.00000 front 270))
+  (component WS2812B_1_LED14 (place LED14 70.50000 -147.00000 front 270))
+  (component WS2812B_1_LED15 (place LED15 40.50000 -147.00000 front 270))
+  (component WS2812B_1_LED16 (place LED16 10.50000 -147.00000 front 270))
+  (component WS2812B_1_LED26 (place LED26 190.50000 -107.00000 front 270))
+  (component WS2812B_1_LED27 (place LED27 160.50000 -107.00000 front 270))
+  (component WS2812B_1_LED28 (place LED28 130.50000 -107.00000 front 270))
+  (component WS2812B_1_LED29 (place LED29 100.50000 -107.00000 front 270))
+  (component WS2812B_1_LED30 (place LED30 70.50000 -107.00000 front 270))
+  (component WS2812B_1_LED31 (place LED31 40.50000 -107.00000 front 270))
+  (component WS2812B_1_LED32 (place LED32 10.50000 -107.00000 front 270))
+  (component WS2812B_1_LED33 (place LED33 220.50000 -87.00000 front 270))
+  (component WS2812B_1_LED34 (place LED34 190.50000 -87.00000 front 270))
+  (component WS2812B_1_LED35 (place LED35 160.50000 -87.00000 front 270))
+  (component WS2812B_1_LED36 (place LED36 130.50000 -87.00000 front 270))
+  (component WS2812B_1_LED37 (place LED37 100.50000 -87.00000 front 270))
+  (component WS2812B_1_LED38 (place LED38 70.50000 -87.00000 front 270))
+  (component WS2812B_1_LED39 (place LED39 40.50000 -87.00000 front 270))
+  (component WS2812B_1_LED40 (place LED40 10.50000 -87.00000 front 270))
+  (component WS2812B_1_LED41 (place LED41 220.50000 -67.00000 front 270))
+  (component WS2812B_1_LED42 (place LED42 190.50000 -67.00000 front 270))
+  (component WS2812B_1_LED43 (place LED43 160.50000 -67.00000 front 270))
+  (component WS2812B_1_LED44 (place LED44 130.50000 -67.00000 front 270))
+  (component WS2812B_1_LED45 (place LED45 100.50000 -67.00000 front 270))
+  (component WS2812B_1_LED46 (place LED46 70.50000 -67.00000 front 270))
+  (component WS2812B_1_LED47 (place LED47 40.50000 -67.00000 front 270))
+  (component WS2812B_1_LED48 (place LED48 10.50000 -67.00000 front 270))
+  (component WS2812B_1_LED49 (place LED49 220.50000 -47.00000 front 270))
+  (component WS2812B_1_LED50 (place LED50 190.50000 -47.00000 front 270))
+  (component WS2812B_1_LED51 (place LED51 160.50000 -47.00000 front 270))
+  (component WS2812B_1_LED52 (place LED52 130.50000 -47.00000 front 270))
+  (component WS2812B_1_LED53 (place LED53 100.50000 -47.00000 front 270))
+  (component WS2812B_1_LED54 (place LED54 70.50000 -47.00000 front 270))
+  (component WS2812B_1_LED55 (place LED55 40.50000 -47.00000 front 270))
+  (component WS2812B_1_LED56 (place LED56 10.50000 -47.00000 front 270))
+  (component WS2812B_1_LED57 (place LED57 220.50000 -27.00000 front 270))
+  (component WS2812B_1_LED58 (place LED58 190.50000 -27.00000 front 270))
+  (component WS2812B_1_LED59 (place LED59 160.50000 -27.00000 front 270))
+  (component WS2812B_1_LED60 (place LED60 130.50000 -27.00000 front 270))
+  (component WS2812B_1_LED61 (place LED61 100.50000 -27.00000 front 270))
+  (component WS2812B_1_LED62 (place LED62 70.50000 -27.00000 front 270))
+  (component WS2812B_1_LED63 (place LED63 40.50000 -27.00000 front 270))
+  (component WS2812B_1_LED64 (place LED64 10.50000 -27.00000 front 270))
+ )
+ (library
+  (image WS2812B_1_LED1 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED2 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED3 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED4 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED5 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED6 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED7 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED8 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED17 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED18 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED19 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED20 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED21 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED22 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED23 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED24 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED25 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED9 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED10 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED11 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED12 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED13 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED14 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED15 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED16 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED26 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED27 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED28 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED29 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED30 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED31 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED32 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED33 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED34 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED35 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED36 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED37 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED38 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED39 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED40 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED41 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED42 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED43 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED44 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED45 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED46 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED47 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED48 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED49 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED50 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED51 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED52 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED53 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED54 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED55 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED56 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED57 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED58 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED59 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED60 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED61 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED62 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED63 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (image WS2812B_1_LED64 (side front)
+   (outline (rect TOP -2.10160 -1.00000 8.10160 20.00000))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 3.00000 0.00000)
+   (pin PS0 (rotate 0) 2 6.00000 0.00000)
+   (pin PS0 (rotate 0) 3 0.00000 17.00000)
+   (pin PS0 (rotate 0) 4 3.00000 17.00000)
+   (pin PS0 (rotate 0) 5 6.00000 17.00000)
+  )
+  (padstack PS0 (absolute on) (shape (rect TOP -1.00000 -1.00000 1.00000 3.00000)))
+  (padstack $VIA_POWER (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+  (padstack $VIA_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00002"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED1-1 LED2-4)
+  )
+  (net "#00005"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED2-1 LED3-4)
+  )
+  (net "#00008"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED3-1 LED4-4)
+  )
+  (net "#00011"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED4-1 LED5-4)
+  )
+  (net "#00014"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED5-1 LED6-4)
+  )
+  (net "#00017"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED6-1 LED7-4)
+  )
+  (net "#00020"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED7-1 LED8-4)
+  )
+  (net "#00027"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED9-1 LED10-4)
+  )
+  (net "#00030"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED10-1 LED11-4)
+  )
+  (net "#00033"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED11-1 LED12-4)
+  )
+  (net "#00036"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED12-1 LED13-4)
+  )
+  (net "#00039"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED13-1 LED14-4)
+  )
+  (net "#00042"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED14-1 LED15-4)
+  )
+  (net "#00045"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED15-1 LED16-4)
+  )
+  (net "#00052"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED17-1 LED18-4)
+  )
+  (net "#00055"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED18-1 LED19-4)
+  )
+  (net "#00058"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED19-1 LED20-4)
+  )
+  (net "#00061"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED20-1 LED21-4)
+  )
+  (net "#00064"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED21-1 LED22-4)
+  )
+  (net "#00067"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED22-1 LED23-4)
+  )
+  (net "#00070"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED23-1 LED24-4)
+  )
+  (net "#00077"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED25-1 LED26-4)
+  )
+  (net "#00080"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED26-1 LED27-4)
+  )
+  (net "#00083"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED27-1 LED28-4)
+  )
+  (net "#00086"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED28-1 LED29-4)
+  )
+  (net "#00089"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED29-1 LED30-4)
+  )
+  (net "#00092"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED30-1 LED31-4)
+  )
+  (net "#00095"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED31-1 LED32-4)
+  )
+  (net "#00102"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED33-1 LED34-4)
+  )
+  (net "#00105"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED34-1 LED35-4)
+  )
+  (net "#00108"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED35-1 LED36-4)
+  )
+  (net "#00111"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED36-1 LED37-4)
+  )
+  (net "#00114"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED37-1 LED38-4)
+  )
+  (net "#00117"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED38-1 LED39-4)
+  )
+  (net "#00120"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED39-1 LED40-4)
+  )
+  (net "#00127"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED41-1 LED42-4)
+  )
+  (net "#00130"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED42-1 LED43-4)
+  )
+  (net "#00133"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED43-1 LED44-4)
+  )
+  (net "#00136"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED44-1 LED45-4)
+  )
+  (net "#00139"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED45-1 LED46-4)
+  )
+  (net "#00142"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED46-1 LED47-4)
+  )
+  (net "#00145"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED47-1 LED48-4)
+  )
+  (net "#00152"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED49-1 LED50-4)
+  )
+  (net "#00155"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED50-1 LED51-4)
+  )
+  (net "#00158"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED51-1 LED52-4)
+  )
+  (net "#00161"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED52-1 LED53-4)
+  )
+  (net "#00164"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED53-1 LED54-4)
+  )
+  (net "#00167"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED54-1 LED55-4)
+  )
+  (net "#00170"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED55-1 LED56-4)
+  )
+  (net "#00177"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED57-1 LED58-4)
+  )
+  (net "#00180"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED58-1 LED59-4)
+  )
+  (net "#00183"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED59-1 LED60-4)
+  )
+  (net "#00186"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED60-1 LED61-4)
+  )
+  (net "#00189"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED61-1 LED62-4)
+  )
+  (net "#00192"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED62-1 LED63-4)
+  )
+  (net "#00195"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED63-1 LED64-4)
+  )
+  (net "AVR_LEDSTRIP"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED1-4)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_POWER)
+   )
+    (pins LED1-2 LED1-5 LED2-2 LED2-5 LED3-2 LED3-5 LED4-2 LED4-5 LED5-2 LED5-5 LED6-2
+     LED6-5 LED7-2 LED7-5 LED8-2 LED8-5 LED17-2 LED17-5 LED18-2 LED18-5 LED19-2 LED19-5
+     LED20-2 LED20-5 LED21-2 LED21-5 LED22-2 LED22-5 LED23-2 LED23-5 LED24-2 LED24-5 LED25-2
+     LED25-5 LED9-2 LED9-5 LED10-2 LED10-5 LED11-2 LED11-5 LED12-2 LED12-5 LED13-2 LED13-5
+     LED14-2 LED14-5 LED15-2 LED15-5 LED16-2 LED16-5 LED26-2 LED26-5 LED27-2 LED27-5 LED28-2
+     LED28-5 LED29-2 LED29-5 LED30-2 LED30-5 LED31-2 LED31-5 LED32-2 LED32-5 LED33-2 LED33-5
+     LED34-2 LED34-5 LED35-2 LED35-5 LED36-2 LED36-5 LED37-2 LED37-5 LED38-2 LED38-5 LED39-2
+     LED39-5 LED40-2 LED40-5 LED41-2 LED41-5 LED42-2 LED42-5 LED43-2 LED43-5 LED44-2 LED44-5
+     LED45-2 LED45-5 LED46-2 LED46-5 LED47-2 LED47-5 LED48-2 LED48-5 LED49-2 LED49-5 LED50-2
+     LED50-5 LED51-2 LED51-5 LED52-2 LED52-5 LED53-2 LED53-5 LED54-2 LED54-5 LED55-2 LED55-5
+     LED56-2 LED56-5 LED57-2 LED57-5 LED58-2 LED58-5 LED59-2 LED59-5 LED60-2 LED60-5 LED61-2
+    LED61-5 LED62-2 LED62-5 LED63-2 LED63-5 LED64-2 LED64-5)
+  )
+  (net "LEDSTRIP_A"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED8-1 LED9-4)
+  )
+  (net "LEDSTRIP_B"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED17-4 LED16-1)
+  )
+  (net "LEDSTRIP_C"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED24-1 LED25-4)
+  )
+  (net "LEDSTRIP_D"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED32-1 LED33-4)
+  )
+  (net "LEDSTRIP_E"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED40-1 LED41-4)
+  )
+  (net "LEDSTRIP_F"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED48-1 LED49-4)
+  )
+  (net "LEDSTRIP_G"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins LED56-1 LED57-4)
+  )
+  (net "VCC/VDD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_POWER)
+   )
+    (pins LED1-0 LED1-3 LED2-0 LED2-3 LED3-0 LED3-3 LED4-0 LED4-3 LED5-0 LED5-3 LED6-0
+     LED6-3 LED7-0 LED7-3 LED8-0 LED8-3 LED17-0 LED17-3 LED18-0 LED18-3 LED19-0 LED19-3
+     LED20-0 LED20-3 LED21-0 LED21-3 LED22-0 LED22-3 LED23-0 LED23-3 LED24-0 LED24-3 LED25-0
+     LED25-3 LED9-0 LED9-3 LED10-0 LED10-3 LED11-0 LED11-3 LED12-0 LED12-3 LED13-0 LED13-3
+     LED14-0 LED14-3 LED15-0 LED15-3 LED16-0 LED16-3 LED26-0 LED26-3 LED27-0 LED27-3 LED28-0
+     LED28-3 LED29-0 LED29-3 LED30-0 LED30-3 LED31-0 LED31-3 LED32-0 LED32-3 LED33-0 LED33-3
+     LED34-0 LED34-3 LED35-0 LED35-3 LED36-0 LED36-3 LED37-0 LED37-3 LED38-0 LED38-3 LED39-0
+     LED39-3 LED40-0 LED40-3 LED41-0 LED41-3 LED42-0 LED42-3 LED43-0 LED43-3 LED44-0 LED44-3
+     LED45-0 LED45-3 LED46-0 LED46-3 LED47-0 LED47-3 LED48-0 LED48-3 LED49-0 LED49-3 LED50-0
+     LED50-3 LED51-0 LED51-3 LED52-0 LED52-3 LED53-0 LED53-3 LED54-0 LED54-3 LED55-0 LED55-3
+     LED56-0 LED56-3 LED57-0 LED57-3 LED58-0 LED58-3 LED59-0 LED59-3 LED60-0 LED60-3 LED61-0
+    LED61-3 LED62-0 LED62-3 LED63-0 LED63-3 LED64-0 LED64-3)
+  )
+  (class POWER
+   "GND"
+   "VCC/VDD"
+   (rule
+    (width 1.77800)
+    (clearance 1.01600)
+    (clearance 1.01600 (type wire_via))
+    (clearance 1.01600 (type wire_smd))
+    (clearance 1.01600 (type wire_pin))
+    (clearance 1.01600 (type wire_wire))
+    (clearance 0.50800 (type via_pin))
+    (clearance 0.50800 (type via_via))
+    (clearance 0.50800 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "#00002"
+   "#00005"
+   "#00008"
+   "#00011"
+   "#00014"
+   "#00017"
+   "#00020"
+   "#00027"
+   "#00030"
+   "#00033"
+   "#00036"
+   "#00039"
+   "#00042"
+   "#00045"
+   "#00052"
+   "#00055"
+   "#00058"
+   "#00061"
+   "#00064"
+   "#00067"
+   "#00070"
+   "#00077"
+   "#00080"
+   "#00083"
+   "#00086"
+   "#00089"
+   "#00092"
+   "#00095"
+   "#00102"
+   "#00105"
+   "#00108"
+   "#00111"
+   "#00114"
+   "#00117"
+   "#00120"
+   "#00127"
+   "#00130"
+   "#00133"
+   "#00136"
+   "#00139"
+   "#00142"
+   "#00145"
+   "#00152"
+   "#00155"
+   "#00158"
+   "#00161"
+   "#00164"
+   "#00167"
+   "#00170"
+   "#00177"
+   "#00180"
+   "#00183"
+   "#00186"
+   "#00189"
+   "#00192"
+   "#00195"
+   "AVR_LEDSTRIP"
+   "LEDSTRIP_A"
+   "LEDSTRIP_B"
+   "LEDSTRIP_C"
+   "LEDSTRIP_D"
+   "LEDSTRIP_E"
+   "LEDSTRIP_F"
+   "LEDSTRIP_G"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 1.77800)
+    (clearance 1.01600)
+    (clearance 1.01600 (type wire_via))
+    (clearance 1.01600 (type wire_smd))
+    (clearance 1.01600 (type wire_pin))
+    (clearance 1.01600 (type wire_wire))
+    (clearance 0.50800 (type via_pin))
+    (clearance 0.50800 (type via_via))
+    (clearance 0.50800 (type via_smd))
+   )
+  )
+ )
+ (wiring
+   (wire (path TOP 1.77800 40.50000 -170.00000 39.50000 -170.00000 27.50000 -170.00000
+  ) (net "#00020") (type protect))
+   (wire (path TOP 1.77800 10.50000 -170.00000 17.13719 -170.00000 19.67719 -167.46000
+    19.67719 -162.12379 21.75211 -160.04887 228.07182 -160.04887 229.98937 -158.13132
+    229.98937 -152.51050 232.52937 -149.97050 237.47050 -149.97050 237.50000 -150.00000
+  ) (net "LEDSTRIP_A") (type protect))
+   (wire (path TOP 1.77800 237.50000 -130.00000 237.49841 -129.99841 231.81863 -129.99841
+    230.00000 -131.81704 230.00000 -138.00000 228.00000 -140.00000 22.00000 -140.00000
+    19.81694 -142.18306 19.81694 -147.34559 17.16253 -150.00000 10.50000 -150.00000)
+   (net "LEDSTRIP_B") (type protect))
+   (wire (path TOP 1.77800 40.50000 -173.00000 40.90230 -172.90473 40.80703 -173.00000
+   27.50000 -173.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 40.50000 -167.00000 28.50000 -167.00000) (net "VCC/VDD") (type protect)
+  )
+   (wire (path TOP 1.77800 10.50000 -130.00000 17.13135 -130.00000 20.15102 -126.98033
+    20.15102 -122.48344 22.67125 -119.96321 227.83321 -119.96321 229.96468 -117.83174
+    229.96468 -111.73174 231.71468 -109.98174 237.73797 -109.98174 237.81468 -109.90503
+   237.50000 -110.00000) (net "LEDSTRIP_C") (type protect))
+   (wire (path TOP 1.77800 10.50000 -110.00000 17.00000 -110.00000 20.00000 -107.00000
+    20.00000 -103.00000 23.00000 -100.00000 227.68926 -100.00000 230.00283 -97.68643
+    230.00283 -91.49717 231.50000 -90.00000 238.30119 -90.00000 238.39629 -90.09510 237.50000 -90.00000
+  ) (net "LEDSTRIP_D") (type protect))
+   (wire (path TOP 1.77800 10.50000 -90.00000 17.00000 -90.00000 20.00000 -87.00000 20.00000 -82.50000
+    22.50000 -80.00000 228.00000 -80.00000 230.00000 -78.00000 230.00000 -71.50000 231.50000 -70.00000
+   236.50000 -70.00000 237.50000 -70.00000) (net "LEDSTRIP_E") (type protect))
+   (wire (path TOP 1.77800 10.50000 -70.00000 17.50000 -70.00000 20.00000 -67.50000 20.00000 -62.21420
+    22.23704 -59.97716 227.21508 -59.97716 229.99375 -57.19849 229.99375 -52.25959 232.26720 -49.98614
+    238.48614 -49.98614 238.50000 -50.00000 237.50000 -50.00000) (net "LEDSTRIP_F") (type protect)
+  )
+   (wire (path TOP 1.77800 10.50000 -50.00000 17.33785 -50.00000 20.03127 -47.30658 20.03127 -41.96873
+    22.00000 -40.00000 228.00000 -40.00000 230.00000 -38.00000 230.00000 -31.50000 231.50000 -30.00000
+   237.50000 -30.00000) (net "LEDSTRIP_G") (type protect))
+   (wire (path TOP 1.77800 5.00000 -114.57130 6.55494 -113.01636 10.48364 -113.01636
+   10.50000 -113.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 5.00000 -114.57130 5.00000 -94.28959) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -94.28959 6.28288 -93.00671 10.49329 -93.00671 10.50000 -93.00000
+  ) (net "GND") (type protect))
+   (wire (path TOP 1.77800 5.00000 -94.28959 5.00000 -74.50000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -74.50000 6.50000 -73.00000 10.50000 -73.00000) (net "GND")
+   (type protect))
+   (wire (path TOP 1.77800 5.00000 -55.30457 5.00000 -35.21519 7.21049 -33.00470 10.49530 -33.00470
+   10.50000 -33.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 5.00000 -74.50000 5.00000 -55.30457) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -55.30457 7.30945 -52.99512 10.76296 -52.99512 10.80009 -52.95799
+   10.50000 -53.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 5.00000 -157.00000 5.00000 -155.00000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -155.00000 7.00000 -153.00000 10.50000 -153.00000
+  ) (net "GND") (type protect))
+   (wire (path TOP 1.77800 10.50000 -173.00000 10.76530 -172.90535 10.67065 -173.00000
+    6.50000 -173.00000 5.00000 -171.50000 5.00000 -157.00000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -136.50000 5.00000 -135.06783) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -135.06783 7.06440 -133.00343 10.49657 -133.00343
+   10.50000 -133.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 5.00000 -135.06783 5.00000 -114.57130) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 5.00000 -155.00000 5.00000 -136.50000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 220.50000 -173.00000 221.08495 -172.90469 221.18026 -173.00000
+   237.50000 -173.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 220.50000 -173.00000 207.50000 -173.00000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 191.00000 -173.00000 190.50000 -173.00000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 190.50000 -173.00000 177.88709 -173.00000 177.79231 -172.90522
+   177.50000 -173.00000) (net "GND") (type protect))
+   (wire (path TOP 1.77800 207.50000 -173.00000 191.00000 -173.00000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 161.50000 -173.00000 160.50000 -173.00000) (net "GND") (type protect)
+  )
+   (wire (path TOP 1.77800 160.50000 -173.00000 150.50000 -173.00000 147.50000 -173.00000
+  ) (net "GND") (type protect))
+   (wire (path TOP 1.77800 177.50000 -173.00000 163.50000 -173.00000 161.50000 -173.00000
+  ) (net "GND") (type protect))
+ )
+)

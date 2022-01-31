@@ -1,0 +1,11 @@
+من 0 - 63 يكونوا كلهم red
+ومن 64 - 127 يكونوا كلهم blue
+
+
+common input for the 2 muxs ( enable pins will be connected with the MC)
+
+common output for the decoder 3 x 8 
+
+
+
+adc function, proteus for calibrating the input values and setting the division factor by 16
